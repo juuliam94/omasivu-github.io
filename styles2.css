@@ -1,0 +1,51 @@
+/*styles.css*/
+
+body {
+    font: arial;
+    background: linear-gradient( to bottom, #fffad7 20%, #fae88f 60%);
+
+}
+header {
+    color: rgb(59, 52, 52);
+    font-size: 44px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.button-link {
+    padding: 20px 40px;
+    background-color: #faed5b;
+    color: rgb(59, 52, 52);
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+
+img {
+    border-radius: 25%;
+    width: 30%;
+    height: 30%;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-left: 3%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+article {
+    position: absolute;
+    top: 300px;
+    text-align: left;
+    color: rgb(59, 52, 52);
+    font-size: 22px;
+    width: 60%;
+}
+
